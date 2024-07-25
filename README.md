@@ -1,8 +1,8 @@
 # Project MemePosting
 
 ## Endpoints
-   To check endpoints in swagger
-   http://localhost:8081/swagger-ui
+To check endpoints in swagger
+http://localhost:8081/swagger-ui
 
 
 # Meme Collection
@@ -125,4 +125,3 @@ _**Example request**_
 1. Create a Dockerized solution for your server; the dockerfile should be added to the root folder of your project,
 2. Document your existing APIs using Swagger. It should be exposed on port 8081 and be accessible through
    http://localhost:8081/swagger-ui
-
