@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+  
+  spring-boot-app:
+    build: .
+    ports:
+      - "8081:8081"
+    depends_on:
+      - mongodb
+    environment:
+      - spring.data.mongodb.uri=mongodb://mongodb:27017/memes

@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: memeposting
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: memes
+
+server:
+  port: 8081
+
+# Swagger UI configuration, use http://localhost:8081/swagger-ui for endpoints swagger view
+springdoc:
+  swagger-ui:
+    path: /swagger-ui
+  api-docs:
+    path: /api-docs
